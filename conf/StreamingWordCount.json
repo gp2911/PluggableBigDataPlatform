@@ -1,0 +1,11 @@
+{
+	"hostWithPort":"spark://ganesh-envy:7077",
+	"appName":"StreamingWordCount",
+	"mainJar":"/usr/local/spark/lib/spark-examples-1.6.1-hadoop2.6.0.jar",
+	"args":["localhost", "12345"],
+	"mainClass":"org.apache.spark.examples.streaming.JavaNetworkWordCount",
+	"outFile":"/home/ganesh/IdeaProjects/PluggableBigDataPlatform/streaming_output.txt",
+	"maxNumCores":"2",
+	"logFile":"/home/ganesh/IdeaProjects/PluggableBigDataPlatform/streaming_log.txt"
+}
+

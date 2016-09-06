@@ -1,0 +1,10 @@
+{
+	"hostWithPort":"spark://ganesh-envy:7077",
+	"appName":"WordCount",
+	"mainJar":"/usr/local/spark/lib/spark-examples-1.6.1-hadoop2.6.0.jar",
+	"args":["file:///home/ganesh/IdeaProjects/PluggableBigDataPlatform/input.txt"],
+	"mainClass":"org.apache.spark.examples.JavaWordCount",
+	"outFile":"/home/ganesh/IdeaProjects/PluggableBigDataPlatform/output.txt",
+	"maxNumCores":"2"
+}
+

@@ -1,0 +1,10 @@
+{
+	"hostWithPort":"spark://ganesh-envy:7077",
+	"appName":"SparkPi",
+	"mainJar":"/usr/local/spark/lib/spark-examples-1.6.1-hadoop2.6.0.jar",
+	"args":["5"],
+	"mainClass":"org.apache.spark.examples.JavaSparkPi",
+	"outFile":"/home/ganesh/IdeaProjects/PluggableBigDataPlatform/outputPi.txt",
+	"maxNumCores":"1"
+}
+
